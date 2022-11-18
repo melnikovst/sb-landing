@@ -1,12 +1,14 @@
 @import url("../vendor/normalize.css");
 @import url(../blocks/page/page.css);
+@import url(../vendor/fonts/roboto/roboto.css);
 
 /* Section choice-suit */
 @import url(../blocks/choice-suit/__card/choice-suit__card.css);
 @import url(../blocks/choice-suit/__button-adder/choice-suit__button-adder.css);
 @import url(../blocks/choice-suit/__card-container/choice-suit__card-container.css);
-@import url(../blocks/choice-suit/__gender-bar-title/choice-suit__gender-bar-title.css);
-@import url(../blocks/choice-suit/__gender-bar-title/_status/gender-bar-title_active.css);
+@import url(../blocks/choice-suit/__gender-bar-button/choice-suit__gender-bar-button.css);
+@import url(../blocks/choice-suit/__gender-bar-button/_status/gender-bar-button_active.css);
+@import url(../blocks/choice-suit/__button/choice-suit__button.css);
 @import url(../blocks/choice-suit/__gender-bar/choice-suit__gender-bar.css);
 @import url(../blocks/choice-suit/__size-panel-button/choice-suit__size-panel-button.css);
 @import url(../blocks/choice-suit/__size-panel/choice-suit__size-panel.css);

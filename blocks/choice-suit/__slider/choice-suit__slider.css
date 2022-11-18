@@ -1,0 +1,10 @@
+.choice-suit__slider {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  overflow: hidden;
+  background-color: #fff;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #111;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}

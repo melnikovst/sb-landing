@@ -1,0 +1,5 @@
+.choice-suit__card-container {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}

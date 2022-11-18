@@ -1,0 +1,7 @@
+.choice-suit__slider-treck-button {
+  all: unset;
+  margin: 0;
+  translate: 0px -19px;
+  padding: 3px 49px;
+  cursor: pointer;
+}

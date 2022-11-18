@@ -1,0 +1,5 @@
+.choice-suit__slider-treck-button_selected {
+  background-color: #1b6102;
+  border: 1px solid #1b6102;
+  border-bottom-left-radius: 8px;
+}

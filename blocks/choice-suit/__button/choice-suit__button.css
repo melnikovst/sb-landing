@@ -1,0 +1,14 @@
+.choice-suit__button {
+  all: unset;
+  margin: 0 0 28px 0;
+  width: 284px;
+  height: 41px;
+  background-color: rgba(27, 97, 2, 1);
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}

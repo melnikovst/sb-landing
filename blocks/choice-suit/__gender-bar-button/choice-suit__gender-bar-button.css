@@ -1,0 +1,9 @@
+.choice-suit__gender-bar-button {
+  all: unset;
+  width: 212px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  cursor: pointer;
+}
