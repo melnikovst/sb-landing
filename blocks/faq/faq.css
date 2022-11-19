@@ -1,0 +1,10 @@
+.faq {
+  max-width: 708px;
+  margin:  0 auto;
+}
+
+@media screen and (max-width: 707px) {
+  .faq {
+    max-width: 284px;
+  }
+}

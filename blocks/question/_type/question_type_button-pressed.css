@@ -1,0 +1,4 @@
+.question_type_button-pressed {
+  background: url(../../../images/btn-opened.svg) center/contain no-repeat;
+  background-size: 14px 14px;
+}

@@ -1,0 +1,8 @@
+.question__show-btn {
+  padding: 10px 25px;
+  background: url(../../../images/btn-show.svg) center/contain no-repeat;
+  background-size: 14px 14px;
+  border: none;
+  cursor: pointer;
+  transition: background .5s ease;
+}

@@ -1,0 +1,15 @@
+.questions__subtitle {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
+  color: #1d1d1f;
+  margin: 0;
+}
+
+@media screen and (max-width: 707px) {
+  .questions__subtitle {
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
