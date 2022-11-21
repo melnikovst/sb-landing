@@ -5,3 +5,12 @@
   line-height: 25px;
   max-width: 299px;
 }
+
+@media screen and (max-width: 499px) {
+  .choice-suit__slider-description {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 17px;
+  }
+}

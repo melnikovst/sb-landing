@@ -1,0 +1,13 @@
+.choice-suit__card-button-left {
+  background-color: transparent;
+  width: 100px;
+  height: 410px;
+  position: absolute;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 499px) {
+  .choice-suit__card-button-left {
+    height: 269px;
+  }
+}

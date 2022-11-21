@@ -1,9 +1,5 @@
-.choice-suit__size-panel {
-  margin: 0 0 20px 0;
-}
-
 @media screen and (max-width: 499px) {
-  .choice-suit__size-panel {
+  .choice-suit__button-container {
     display: flex;
     justify-content: center;
   }

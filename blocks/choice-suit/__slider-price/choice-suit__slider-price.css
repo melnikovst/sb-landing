@@ -4,3 +4,11 @@
   font-size: 25px;
   line-height: 39px;
 }
+
+@media screen and (max-width: 499px) {
+  .choice-suit__slider-price {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

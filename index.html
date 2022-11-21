@@ -18,18 +18,23 @@
           <h2 class="choice-suit__title">Выбрать костюм</h2>
           <div class="choice-suit__gender-bar">
             <button
-              class="choice-suit__gender-bar-button choice-suit__gender-bar-button_active"
+              class="choice-suit__gender-bar-button button-hover choice-suit__gender-bar-button_active"
               id="genW"
             >
               Женское
             </button>
-            <button class="choice-suit__gender-bar-button" id="genM">
+            <button
+              class="choice-suit__gender-bar-button button-hover"
+              id="genM"
+            >
               Мужское
             </button>
           </div>
           <div class="choice-suit__card-container">
             <template id="card-template">
               <div class="choice-suit__card">
+                <div class="choice-suit__card-button-left"></div>
+                <div class="choice-suit__card-button-right"></div>
                 <div class="choice-suit__slider">
                   <img
                     src="./images/With_hoodi.jpg"
@@ -61,22 +66,94 @@
                   </p>
                   <h2 class="choice-suit__slider-price">7 000 руб</h2>
                   <div class="choice-suit__size-panel">
-                    <button class="choice-suit__size-panel-button">S</button>
-                    <button class="choice-suit__size-panel-button">M</button>
-                    <button class="choice-suit__size-panel-button">L</button>
+                    <button class="choice-suit__size-panel-button button-hover">
+                      XS
+                    </button>
+                    <button class="choice-suit__size-panel-button button-hover">
+                      S
+                    </button>
+                    <button class="choice-suit__size-panel-button button-hover">
+                      M
+                    </button>
                   </div>
-                  <button class="choice-suit__button choice-suit__button-adder">
-                    Выбрать костюм
-                  </button>
+                  <div class="choice-suit__button-container">
+                    <button
+                      class="choice-suit__button choice-suit__button-adder button-hover"
+                    >
+                      Выбрать костюм
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </template>
+            <template id="card-template_men">
+              <div class="choice-suit__card">
+                <div class="choice-suit__card-button-left"></div>
+                <div class="choice-suit__card-button-right"></div>
+                <div class="choice-suit__slider">
+                  <img
+                    src="./images/With_hoodi.jpg"
+                    alt="Худи"
+                    class="choice-suit__slider-content"
+                  />
+                </div>
+                <div class="choice-suit__slider-treck">
+                  <button
+                    class="choice-suit__slider-treck-button choice-suit__slider-treck-button_selected"
+                  ></button>
+                  <button
+                    class="choice-suit__slider-treck-button"
+                    id="treck1"
+                  ></button>
+                  <button
+                    class="choice-suit__slider-treck-button"
+                    id="treck2"
+                  ></button>
+                  <button
+                    class="choice-suit__slider-treck-button"
+                    id="treck3"
+                  ></button>
+                </div>
+                <div class="choice-suit__slider-bottom-container">
+                  <h2 class="choice-suit__slider-title">Костюм с худи</h2>
+                  <p class="choice-suit__slider-description">
+                    Свитшот и штаны в цвете «капучино», базовая белая футболка
+                  </p>
+                  <h2 class="choice-suit__slider-price">7 000 руб</h2>
+                  <div class="choice-suit__size-panel">
+                    <button class="choice-suit__size-panel-button button-hover">
+                      S
+                    </button>
+                    <button class="choice-suit__size-panel-button button-hover">
+                      M
+                    </button>
+                    <button class="choice-suit__size-panel-button button-hover">
+                      L
+                    </button>
+                    <button class="choice-suit__size-panel-button button-hover">
+                      XL
+                    </button>
+                  </div>
+                  <div class="choice-suit__button-container">
+                    <button
+                      class="choice-suit__button choice-suit__button-adder button-hover"
+                    >
+                      Выбрать костюм
+                    </button>
+                  </div>
                 </div>
               </div>
             </template>
           </div>
         </section>
         <section class="about-us">
-          <img src="./images/about_us.jpg" alt="" class="about-us__image" />
-          <div class="about-us__description">
+          <div class="about-us__container">
             <h2 class="about-us__title">О нас</h2>
+            <picture class="about-us__image-container">
+              <source srcset="./images/var2.jpg" media="(max-width: 499px)" />
+              <source srcset="./images/var891.jpg" media="(max-width: 891px)" />
+              <img src="./images/about_us.jpg" alt="" class="about-us__image" />
+            </picture>
             <p class="about-us__text">
               Внимание к деталям и лаконичность кроя. Турецкие ткани из 100%
               хлопка, омский пошив. Стиль, комфорт, атмосфера и качество. Это
@@ -89,6 +166,5 @@
     </div>
     <script src="./script/data.js"></script>
     <script src="./script/index.js"></script>
-    <script src="./script/slider.js"></script>
   </body>
 </html>

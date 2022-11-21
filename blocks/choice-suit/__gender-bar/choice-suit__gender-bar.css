@@ -3,3 +3,10 @@
   max-width: 500px;
   margin: 0 auto 32px auto;
 }
+
+@media screen and (max-width: 499px) {
+  .choice-suit__gender-bar {
+    margin-left: 18px;
+    margin-bottom: 24px;
+  }
+}

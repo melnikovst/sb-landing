@@ -1,4 +1,22 @@
-.about-us {
+.about-us__container {
   margin-left: 91px;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-areas: "image title" "image text";
+  grid-template-rows: 70px;
+}
+
+@media screen and (max-width: 891px) {
+  .about-us__container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .about-us__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }

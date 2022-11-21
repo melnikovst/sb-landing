@@ -1,2 +1,9 @@
-.choice-suit__slider-content {
+@media screen and (max-width: 499px) {
+  .choice-suit__slider-content {
+    box-sizing: border-box;
+    width: 310px;
+    height: 269px;
+    object-fit: cover;
+    object-position: center;
+  }
 }
