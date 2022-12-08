@@ -1,0 +1,16 @@
+.size__text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  color: #1d1d1f;
+  margin: 0;
+  padding: 0 0 8px;
+}
+
+@media screen and (max-width: 707px) {
+  .size__text {
+    padding-top: 8px;
+    font-size: 13px;
+    line-height: 17px;
+  }
+}

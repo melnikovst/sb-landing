@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -167,10 +173,152 @@
             </p>
           </div>
         </section>
+
+        <section class="faq">
+          <h2 class="faq__title">FAQ: поговорим про ваш заказ?</h2>
+          <div class="questions">
+            <div class="question">
+              <div class="question__subtitle-container">
+                <h3 class="questions__subtitle">Как это работает?</h3>
+                <button
+                  class="question__show-btn"
+                  type="button"
+                  aria-label="Отобразить"
+                ></button>
+              </div>
+              <div class="question__line"></div>
+              <div class="question__answer-container">
+                <p class="question__answer">
+                  Вы выбираете понравившиеся костюмы и оставляете заявку.<br />
+                  В течение 3-х дней мы свяжемся с вами для подтверждения
+                  заказа.<br />
+                  В Омске вы сможете оплатить заказ после примерки, в другие
+                  города <br />
+                  отправляем после полной предоплаты.
+                </p>
+              </div>
+            </div>
+
+            <div class="question">
+              <div class="question__subtitle-container">
+                <h3 class="questions__subtitle">
+                  Сколько стоит доставка, куда доставляете?
+                </h3>
+                <button
+                  class="question__show-btn"
+                  type="button"
+                  aria-label="Отобразить"
+                ></button>
+              </div>
+              <div class="question__line"></div>
+              <div class="question__answer-container">
+                <p class="question__answer">
+                  Бесплатная доставка от 12 000 руб.<br />
+                  Доставка по Омску - 300 руб. Отправим в другие регионы
+                  транспортной компанией на выбор, после полной предоплаты.
+                </p>
+              </div>
+            </div>
+
+            <div class="question">
+              <div class="question__subtitle-container">
+                <h3 class="questions__subtitle">Как оплатить заказ?</h3>
+                <button
+                  class="question__show-btn"
+                  type="button"
+                  aria-label="Отобразить"
+                ></button>
+              </div>
+              <div class="question__line"></div>
+              <div class="question__answer-container">
+                <p class="question__answer">
+                  Для жителей Омска и Омской области — наличный и безналичный
+                  расчет после примерки. Оплата для жителей других регионов —
+                  безналичный расчет, полная предоплата при отправке.
+                </p>
+              </div>
+            </div>
+
+            <div class="question">
+              <div class="question__subtitle-container">
+                <h3 class="questions__subtitle">Как выбрать размер?</h3>
+                <button
+                  class="question__show-btn"
+                  type="button"
+                  aria-label="Отобразить"
+                ></button>
+              </div>
+              <div class="question__line"></div>
+              <div class="question__answer-container">
+                <p class="question__answer">
+                  Вы можете подобрать свой размер при помощи этой таблицы
+                </p>
+                <div class="size">
+                  <div class="size__male">
+                    <p class="size__text">Мужчинам</p>
+                    <img
+                      src="images/size-male.svg"
+                      alt=""
+                      class="size__image"
+                    />
+                  </div>
+                  <div class="size__female">
+                    <p class="size__text">Женщинам</p>
+                    <img
+                      src="images/size-male.svg"
+                      alt=""
+                      class="size__image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="question">
+              <div class="question__subtitle-container">
+                <h3 class="questions__subtitle">
+                  На какой сезон подойдет ваш костюм?
+                </h3>
+                <button
+                  class="question__show-btn"
+                  type="button"
+                  aria-label="Отобразить"
+                ></button>
+              </div>
+              <div class="question__line"></div>
+              <div class="question__answer-container">
+                <p class="question__answer">
+                  Костюм сшит из футера без начеса, комбинируя его с вашими
+                  вещами, носить капсулу можно круглый год.
+                </p>
+              </div>
+            </div>
+
+            <div class="question">
+              <div class="question__subtitle-container">
+                <h3 class="questions__subtitle">Как ухаживать за костюмами?</h3>
+                <button
+                  class="question__show-btn"
+                  type="button"
+                  aria-label="Отобразить"
+                ></button>
+              </div>
+              <div class="question__line"></div>
+              <div class="question__answer-container">
+                <p class="question__answer">
+                  Для увеличения срока службы стирайте костюм в деликатном
+                  режиме при температуре не выше 30°С, без отжима. Сушите в
+                  подвешенном состоянии, без применения искусственной сушки.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
-    <script src="./script/data.js"></script>
-    <script src="./script/slider.js"></script>
+    <script defer src="./script/data.js"></script>
+    <script defer src="./script/index.js"></script>
+    <script defer src="./script/slider.js"></script>
   </body>
 </html>

@@ -1,0 +1,13 @@
+@keyframes fade_in_show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.question_type_answer-visible {
+  display: block;
+  animation: fade_in_show 1s;
+}

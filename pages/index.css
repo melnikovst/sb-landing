@@ -1,4 +1,4 @@
-@import url("../vendor/normalize.css");
+@import url('../vender/normalize.css');
 @import url(../blocks/page/page.css);
 @import url(../vendor/fonts/roboto/roboto.css);
 
@@ -36,3 +36,23 @@
 @import url(../blocks/about-us/__text/about-us__text.css);
 @import url(../blocks/about-us/__title/about-us__title.css);
 @import url(../blocks/about-us/__image-container/about-us__image-container.css);
+
+/*FAQ*/
+@import url('../blocks/faq/faq.css');
+@import url('../blocks/faq/__title/faq__title.css');
+
+/*Question*/
+@import url('../blocks/question/question.css');
+@import url('../blocks/question/__answer/question__answer.css');
+@import url('../blocks/question/__line/question__line.css');
+@import url('../blocks/question/__subtitle/questions__subtitle.css');
+@import url('../blocks/question/__answer-container/question__answer-container.css');
+@import url('../blocks/question/__show-btn/question__show-btn.css');
+@import url('../blocks/question/__subtitle-container/question__subtitle-container.css');
+@import url('../blocks/question/_type/question_type_answer-visible.css');
+@import url('../blocks/question/_type/question_type_button-pressed.css');
+
+/*Size*/
+@import url('../blocks/size/size.css');
+@import url('../blocks/size/__text/size__text.css');
+@import url('../blocks/size/__image/size__image.css');

@@ -1,0 +1,10 @@
+.question__answer {
+  max-width: 616px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #1d1d1f;
+  margin: 0;
+  padding-top: 16px;
+}
+
