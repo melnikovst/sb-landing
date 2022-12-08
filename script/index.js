@@ -239,7 +239,7 @@ const createSliderCard = (item) => {
       const width = cardNew.querySelector(".choice-suit__slider").offsetWidth;
       if (evt.target.classList.contains("choice-suit__card-button-right")) {
         count++;
-        countChecker();
+        countCheckerUp;
         treckerUp();
         sliderLine.style.transform = "translate(-" + count * width + "px)";
       }
@@ -247,11 +247,23 @@ const createSliderCard = (item) => {
         item.style.width = width + "px";
         item.style.height = "auto";
       });
+      if (evt.target.classList.contains("choice-suit__card-button-left")) {
+        count--;
+        countCheckerDown();
+        treckerDown();
+        sliderLine.style.transform = "translate(-" + count * width + "px)";
+      }
     });
 
-    const countChecker = () => {
+    const countCheckerUp = () => {
       if (count > 3) {
         return (count = 0);
+      }
+    };
+
+    const countCheckerDown = () => {
+      if (count < 0) {
+        return (count = 3);
       }
     };
     /*---------------------------------ФУНКЦИОНАЛ ТРЕК БАРА----------------------------------------------*/
