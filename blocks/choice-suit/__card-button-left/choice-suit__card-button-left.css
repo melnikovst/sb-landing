@@ -4,6 +4,7 @@
   height: 410px;
   position: absolute;
   cursor: pointer;
+  z-index: 5;
 }
 
 @media screen and (max-width: 499px) {

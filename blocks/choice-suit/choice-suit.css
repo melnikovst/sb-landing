@@ -1,3 +1,13 @@
 .choice-suit {
   margin: 100px 0 60px 0;
 }
+
+.choice-suit__slider-item {
+  width: 432px;
+  height: 410px;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  left: 0;
+  transition: all 0.8s ease;
+}

@@ -1,12 +1,18 @@
 const cardsMassiveWoman = [
-  {
-    image: './images/Slider_girls/жен худи 1.jpg',
+ {
+    image1: './images/Slider_girls/w-hoodi-1.jpg',
+    image2: './images/Slider_girls/w-hoodi-2.jpg',
+    image3: './images/Slider_girls/w-hoodi-3.jpg',
+    image4: './images/Slider_girls/w-hoodi-4.jpg',
     title: 'Костюм с худи',
     description: 'Худи и штаны в цвете «капучино», базовая белая футболка',
     price: '7 000 руб',
   },
   {
-    image: './images/Slider_girls/жен свитшот 1.jpg',
+    image1: './images/Slider_girls/w-shot-1.jpg',
+    image2: './images/Slider_girls/w-shot-2.jpg',
+    image3: './images/Slider_girls/w-shot-3.jpg',
+    image4: './images/Slider_girls/w-shot-4.jpg',
     title: 'Костюм со свитшотом',
     description: 'Свитшот и штаны в цвете «капучино», базовая белая футболка',
     price: '6 500 руб',
@@ -15,7 +21,10 @@ const cardsMassiveWoman = [
 
 const cardsMassiveMen = [
   {
-    image: './images/Slider_boys/муж худи 1.jpg',
+    image1: './images/Slider_boys/m-hoodi-1.jpg',
+    image2: './images/Slider_boys/m-hoodi-2.jpg',
+    image3: './images/Slider_boys/m-hoodi-3.jpg',
+    image4: './images/Slider_boys/m-hoodi-4.jpg',
     title: 'Костюм с худи',
     description: 'Худи и штаны в цвете «капучино», базовая белая футболка',
     price: '3 200 руб',
@@ -26,7 +35,10 @@ const cardsMassiveMen = [
     sizeFourth: 'XL',
   },
   {
-    image: './images/Slider_boys/муж свитшот 1.jpg',
+    image1: './images/Slider_boys/m-shot-1.jpg',
+    image2: './images/Slider_boys/m-shot-2.jpg',
+    image3: './images/Slider_boys/m-shot-3.jpg',
+    image4: './images/Slider_boys/m-shot-4.jpg',
     title: 'Костюм со свитшотом',
     description: 'Свитшот и штаны в цвете «капучино», базовая белая футболка',
     price: '4 200 руб',
@@ -36,16 +48,3 @@ const cardsMassiveMen = [
     sizeFourth: 'XL',
   }
 ]
-
-// Массив для слайдера [В РАЗРАБОТКЕ]
-// const cardsMassivePhoto = [
-//   {
-//     image: './images/Slider_boys/муж худи 2.jpg',
-//   },
-//   {
-//     image: './images/Slider_boys/муж худи 3.jpg',
-//   },
-//   {
-//     image: './images/Slider_boys/муж худи 4.jpg',
-//   },
-// ]

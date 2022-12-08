@@ -2,3 +2,7 @@
   background-color: rgba(27, 97, 2, 1);
   color: #fff;
 }
+
+.choice-suit__size-panel-button_active:hover {
+  opacity: 1 !important;
+}

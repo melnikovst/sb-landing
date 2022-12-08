@@ -9,6 +9,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
+  z-index: 0;
 }
 
 .choice-suit__size-panel-button:active {
