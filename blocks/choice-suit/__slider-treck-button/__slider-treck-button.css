@@ -9,7 +9,7 @@
 @media screen and (max-width: 499px) {
   .choice-suit__slider-treck-button {
     translate: 0px -17px;
-    padding: 1px 33px;
+    padding: 1px 40px;
     padding-right: 33px;
   }
 }

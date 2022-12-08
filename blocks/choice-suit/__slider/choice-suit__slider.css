@@ -9,9 +9,4 @@
   border-bottom-right-radius: 9px;
 }
 
-@media screen and (max-width: 499px) {
-  .choice-suit__slider {
-    padding-bottom: 0;
-    border-bottom: 0;
-  }
-}
+

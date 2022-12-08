@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 499px) {
   .choice-suit__card {
+    width: 310px;
     margin-right: 0;
   }
 }
