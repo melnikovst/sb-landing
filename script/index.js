@@ -239,7 +239,7 @@ const createSliderCard = (item) => {
       const width = cardNew.querySelector(".choice-suit__slider").offsetWidth;
       if (evt.target.classList.contains("choice-suit__card-button-right")) {
         count++;
-        countCheckerUp;
+        countCheckerUp();
         treckerUp();
         sliderLine.style.transform = "translate(-" + count * width + "px)";
       }
