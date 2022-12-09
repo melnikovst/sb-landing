@@ -1,0 +1,6 @@
+@media screen and (max-width: 499px) {
+  .choice-suit__button-container {
+    display: flex;
+    justify-content: center;
+  }
+}

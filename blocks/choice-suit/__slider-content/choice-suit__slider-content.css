@@ -1,0 +1,7 @@
+@media screen and (max-width: 499px) {
+  .choice-suit__slider-content {
+    box-sizing: border-box;
+    object-fit: contain;
+    object-position: center;
+  }
+}

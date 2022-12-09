@@ -1,0 +1,9 @@
+.choice-suit__slider-bottom-container {
+  margin: 0 0 0 66.6px;
+}
+
+@media screen and (max-width: 499px) {
+  .choice-suit__slider-bottom-container {
+    margin-left: 0;
+  }
+}

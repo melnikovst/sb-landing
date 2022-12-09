@@ -1,0 +1,15 @@
+.choice-suit__card-button-right {
+  background-color: transparent;
+  width: 100px;
+  height: 410px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 5;
+}
+
+@media screen and (max-width: 499px) {
+  .choice-suit__card-button-right {
+    height: 269px;
+  }
+}

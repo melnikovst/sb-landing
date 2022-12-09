@@ -1,0 +1,16 @@
+.about-us__text {
+  margin: 0;
+  max-width: 614px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
+  grid-area: text;
+}
+
+@media screen and (max-width: 499px) {
+  .about-us__text {
+    max-width: 284px;
+    font-size: 13px;
+    line-height: 30px;
+  }
+}

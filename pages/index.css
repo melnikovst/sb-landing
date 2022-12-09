@@ -1,4 +1,41 @@
 @import url('../vender/normalize.css');
+@import url(../blocks/page/page.css);
+@import url(../vendor/fonts/roboto/roboto.css);
+
+/* Section choice-suit */
+@import url(../blocks/choice-suit/__card/choice-suit__card.css);
+@import url(../blocks/choice-suit/__button-adder/choice-suit__button-adder.css);
+@import url(../blocks/choice-suit/__card-container/choice-suit__card-container.css);
+@import url(../blocks/choice-suit/__gender-bar-button/choice-suit__gender-bar-button.css);
+@import url(../blocks/choice-suit/__gender-bar-button/_status/gender-bar-button_active.css);
+@import url(../blocks/choice-suit/__button/choice-suit__button.css);
+@import url(../blocks/choice-suit/__gender-bar/choice-suit__gender-bar.css);
+@import url(../blocks/choice-suit/__size-panel-button/choice-suit__size-panel-button.css);
+@import url(../blocks/choice-suit/__size-panel/choice-suit__size-panel.css);
+@import url(../blocks/choice-suit/__slider-bottom-container/choice-suit__slider-bottom-container.css);
+@import url(../blocks/choice-suit/__slider-content/choice-suit__slider-content.css);
+@import url(../blocks/choice-suit/__slider-description/choice-suit__slider-description.css);
+@import url(../blocks/choice-suit/__slider-price/choice-suit__slider-price.css);
+@import url(../blocks/choice-suit/__slider-title/choice-suit__slider-title.css);
+@import url(../blocks/choice-suit/__slider-treck-button/__slider-treck-button.css);
+@import url(../blocks/choice-suit/__slider-treck-button/_status/choice-suit__slider-treck-button_selected.css);
+@import url(../blocks/choice-suit/__slider-treck/choice-suit__slider-treck.css);
+@import url(../blocks/choice-suit/__slider/choice-suit__slider.css);
+@import url(../blocks/choice-suit/__title/choice-suit__title.css);
+@import url(../blocks/choice-suit/choice-suit.css);
+@import url(../blocks/choice-suit/__card-button-left/choice-suit__card-button-left.css);
+@import url(../blocks/choice-suit/__card-button-right/choice-suit__card-button-right.css);
+@import url(../blocks/choice-suit/__button-container/choice-suit__button-container.css);
+@import url(../blocks/choice-suit/__size-panel-button/_active/choice-suit__size-panel-button.css);
+@import url(../blocks/button-hover/button-hover.css);
+
+/* Section about-us */
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__description/about-us__description.css);
+@import url(../blocks/about-us/__image/about-us__image.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+@import url(../blocks/about-us/__image-container/about-us__image-container.css);
 
 /*FAQ*/
 @import url('../blocks/faq/faq.css');

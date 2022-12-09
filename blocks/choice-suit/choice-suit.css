@@ -1,0 +1,10 @@
+.choice-suit {
+  margin: 100px 0 60px 0;
+}
+
+.choice-suit__slider-item {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  transition: all 0.8s ease;
+}

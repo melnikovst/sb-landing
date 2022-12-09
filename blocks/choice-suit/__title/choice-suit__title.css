@@ -1,0 +1,21 @@
+.choice-suit__title {
+  margin: 0 0 36px 182px;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 58px;
+}
+
+@media screen and (max-width: 768px) {
+  .choice-suit__title {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .choice-suit__title {
+    margin-left: 18px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
