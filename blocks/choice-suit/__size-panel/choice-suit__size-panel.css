@@ -6,5 +6,6 @@
   .choice-suit__size-panel {
     display: flex;
     justify-content: center;
+    margin-left: 15px;
   }
 }
